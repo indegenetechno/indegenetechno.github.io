@@ -1,0 +1,623 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*header part css start here*/
+
+.tophead{
+  width: 100%;
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* background: #1976d2; */
+}
+
+.brandlogo h1{
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1rem;
+   color: #333333;
+    font-family: "Roboto", sans-serif;
+}
+.extra-headings{
+  margin-left: 40rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.extra-headings h2{
+  font-size: 1rem;
+  padding: 1rem;
+  color: #333333;
+   font-family: "Roboto", sans-serif;
+  
+}
+.menulines{
+  font-size: 30px;
+  cursor: pointer;
+  margin-left:1px;
+}
+.sidenav{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #272634;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: all 0.5s linear;
+  
+  
+}
+.sidenav a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  padding: 30px 0 25px 20px;
+}
+.sidenav a:hover{
+    color:#f9b707;
+}
+.closebtn{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 40px !important;
+}
+@media screen and (max-width:800px){
+  .brandlogo h1{
+  font-size: .8rem;
+  padding-right:1px;
+}
+ .extra-headings{
+margin-left: 1rem;
+    
+} 
+.extra-headings h2{
+  color: #333333;
+  font-size: .7rem;
+  padding: .5rem; 
+    }
+}
+/* header end here*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*first part here...............................*/
+.header_container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color:  #C0C0C0;
+}
+.heading_first{
+   position: relative; 
+}
+.heading_first h1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 18rem;
+    text-transform: capitalize;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.heading_first p{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 18rem;
+    text-transform: capitalize;
+}
+ .btn-global{
+     position: absolute;
+     top: 65%;
+     left: 38%;
+     transform: translate(-50%,-50%);
+         text-transform: capitalize;
+     font-size:1.5rem;
+    background-color:burlywood;
+    color: white;
+    display: inline-block;
+}
+.btn-explor{
+     position: absolute;
+     top: 65%;
+     left: 58%;
+     transform: translate(-50%,-50%);
+    background-color:white;
+    color: black;
+    font-size: 1.5rem;
+    display: inline-block;
+    border: 1px solid black;
+    text-transform: capitalize;
+}
+/*second part here...................................*/
+.download{
+       position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+   background-image:linear-gradient(90deg,rgba(222,184,135,.58)50%,rgba(0,0,0,.58)50%), url("../img/p2.png");
+    -webkit-background-size: ;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.download_app h1{
+     color: #333333;
+    font-size: 2.5rem;
+    text-align: left;
+    padding:18rem 0 0 5rem;
+    text-transform:uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.download_app p{
+    color: white;
+    font-size: 1.8rem;
+    text-align: left;
+    padding:1rem 0 1rem 5rem;
+    text-transform: capitalize;
+}
+ .btn-download{
+    text-transform: capitalize;
+    background-color:burlywood;
+    color: #333333;
+     background-color: #fff;
+    display:block;
+     margin: 0 0 18rem 5rem;
+     font-size: 1.5rem;
+     width: 14rem;
+}
+
+
+
+/*third part here........................................*/
+.heading-second {
+  position: relative;
+  margin-top: 4rem;
+}
+.heading-second h1 {
+  font-size: 2rem;
+  padding: 2rem 0 0 0;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  color: #333333;
+}
+.heading-second h2 {
+  font-size: 1.5rem;
+  padding: 2rem 0 0 0;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  color: #f9b707;
+}
+
+.services-section {
+  margin: 3rem 1rem 1rem 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.box-2 {
+  width: ;
+  height: 17.5rem;
+  border: 1px solid #707070;
+  border-radius: 0.7rem;
+  margin: 0 0 4rem 1rem;
+
+}
+.box-2 h1 {
+  font-size: 1.8rem;
+  padding: 2rem 0 0 1rem;
+  text-align: left;
+  color: #333333;
+  font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+}
+.box-2 p {
+  font-size: 1rem;
+  line-height: 1.8;
+  text-align: left;
+  color: #e75480;
+  padding: 1rem 0 0 1rem ;
+  font-family: 'Fjalla One', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.circle {
+  width: 8rem;
+  height: 8rem;
+  background:  #e75480;
+  border-radius: 50%;
+  margin: 2rem 0 0 2rem;
+}
+.box2-img {
+  width:5rem;
+  height: 5rem;
+  margin: 1.4rem 0.5rem  .5rem 1.5rem;
+}
+@media (min-width:800px){
+     .heading-second {
+    margin-top: 3rem;
+  }
+  .heading-second h1 {
+    font-size: 2rem;
+    padding: 2rem 0 0 0;
+  }
+     .heading-second h2 {
+    font-size: 1.5rem;
+    padding: 2rem 0 0 0;
+  }
+  .line2 {
+    width: 18%;
+  }
+  .services-section {
+    margin-top: 3rem;
+    justify-content: center;
+  }
+  .box-2 {
+    width: 35%;
+    height: 12rem;
+    margin: 0 .5rem 3rem .5rem;
+      border: none;
+
+  }
+  .box-2 h1 {
+    font-size: 1.4rem;
+    padding: 1rem 0.5rem 0 0;
+     
+  }
+  .box-2 p {
+    font-size: 1.1rem;
+    padding: 1rem 0.5rem 0 0;
+    line-height: 1.5;
+  }
+  .circle {
+    width: 8rem;
+    height: 8rem;
+    margin: 1rem;
+  }
+  .box2-img {
+    width: 4.5rem;
+    height: 4.5rem;
+    margin: 1.7rem 0.5rem 2rem 1.7rem;
+  }
+}
+
+
+
+
+
+
+
+/*fourth part here......................................*/
+.top_testimony {
+        background-image:linear-gradient(rgba(0,0,0,.58),rgba(0,0,0,.58)),url("../img/p1.png");
+    -webkit-background-size: ;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+.top_testimony h1{
+    text-align: center;
+   color: white;
+    font-size: 3rem;
+    padding: 4rem 0 2rem 0;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.testimony{
+      position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box_1{
+    position: relative;
+    width: 20%;
+    height: 25rem;
+    margin: 2rem 1.5rem 2rem 1.5rem;
+    color: #C0C0C0;
+}
+.box_1:hover{
+    color: white;
+}
+.box_1:active{
+    color: white;
+}
+.dot{
+    position: absolute;
+    top: 18%;
+    left: 50%;
+        transform: translate(-50%, -50%);
+    width: 8rem;
+    height: 7rem;
+    border-radius: 50%;
+    border: 2px solid #C0C0C0;
+    display: inline-block;
+}
+.dot:hover{
+   color: white;
+}
+.dot i{
+   color: #C0C0C0;
+    margin:1rem 1rem 0 2rem;
+    font-size: 5rem
+}
+.dot i:hover{
+   color: white;
+}
+.box_1 p{
+   color: #C0C0C0;
+    font-size: 1.3rem;
+    text-align: center;
+    padding:10rem 0 0 0;
+    text-transform: capitalize;
+}
+.box_1 p:hover{
+ color: white;
+}
+
+.box_1 h1{
+  color: #C0C0C0;
+    font-size: 2rem;
+    text-align: center;
+    padding:0 0 1rem 0;
+    text-transform: capitalize;
+}
+.box_1 h1:hover{
+  color: white;
+}
+
+
+.recent_blog{
+     position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.box_3{
+    width: 25rem;
+    height: 28rem;
+    box-shadow: 2px 15px 13px #333333;
+    background-color: #fff;
+    margin: 3rem;
+}
+.blog_img{
+     width: 25rem;
+    height:11rem;
+}
+.background_color{
+     background:  #e75480;
+    height: 17rem;
+    
+}
+.background_color1 h2{
+font-size: 1.5rem;
+    padding: 2rem 0 0 0;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.background_color h1{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2rem 0 0 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*footer start here*/
+.footer_main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #333333;
+    height: 50vh;
+    width: 100%;
+    
+    
+}
+.footer_headings h1{
+    color: white;
+    font-size: 2.5rem;
+    padding: 9rem 0 0 0;
+    text-align: center;
+    
+}
+.footer_headings p{
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+
+
+/*form part css for home*/
+
+.search-section {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem 0 2rem 0;
+}
+.search-box {
+  border: 2px solid #272727;
+  border-radius: 25px;
+  width: 90%;
+  height: 5rem;
+  color: white !important;
+  background-color: #272727;
+  padding: 0 0 0 3rem;
+    outline: none;
+    border: 2px solid white;
+    font-size: 1.5rem;
+}
+
+.btn-subscribe {
+  position: absolute;
+  top: 8%;
+  left: 59%;
+  width: 35%;
+  height: 4.1rem;
+  color: white;
+  background-color: peru;
+  border-radius: 20px;
+    font-size: 1.5rem !important;
+    padding:.8rem;
+}
+@media (min-width:800px){
+        .search-box {
+    width: 49%;
+  }
+  .btn-subscribe {
+    position: absolute;
+    top: 8%;
+    left: 59%;
+    font-size: 1rem;
+    width: 15%;
+  }
+}
+/*meadia query for mobile ......................................*/
+@media (max-width:800px){
+.heading_first{
+   position: relative; 
+}
+.heading_first h1{
+    padding-top: 5rem;
+}
+.heading_first p{
+    font-size: 1.5rem;
+    padding-bottom: 13rem;
+  
+}
+    
+ .btn-global{
+     top: 69%;
+     left: 34%;
+     transform: 
+     font-size:1.7rem !important;
+}
+.btn-explor{
+     position: absolute;
+     top: 69%;
+     left: 73%;
+    
+}  
+    .download{
+       position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+   background-image:linear-gradient(90deg,rgba(222,184,135,.58)50%,rgba(0,0,0,.58)50%), url("../img/p2.png");
+    -webkit-background-size: ;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.download_app h1{
+     color: white;
+    font-size: 1.5rem;
+    padding:4rem 0 0 2rem;
+   
+}
+.download_app p{
+    color: white;
+    font-size: 1.2rem;
+    padding:1rem 0 1rem 2rem;
+   
+}
+ .btn-download{
+     margin: 0 0 12rem 2rem;
+     font-size: 1.5rem;
+}
+.top_testimony {
+        background-image:linear-gradient(rgba(0,0,0,.58),rgba(0,0,0,.58)),url("../img/p1.png");
+    -webkit-background-size: ;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+.top_testimony h1{
+    text-align: center;
+   color: white;
+    font-size: 2rem;
+    padding: 3rem 0 0 0;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.testimony{
+      position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box_1{
+    position: relative;
+    width: 25%;
+    height: 35rem;
+    margin: 1rem 1.5rem 2rem 1.5rem;
+    color: #C0C0C0;
+}
+
+.dot{
+    position: absolute;
+    top: 12%;
+    left: 50%;
+        transform: translate(-50%, -50%);
+    width: 7rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 2px solid #C0C0C0;
+    display: inline-block;
+}
+
+.dot i{
+   color: #C0C0C0;
+    margin:1rem 1rem 0 1.8rem;
+    font-size: 4rem
+}
+
+.box_1 p{
+    font-size: 1.2rem;
+    padding:8rem 0 0 0;
+   
+}
+
+
+.box_1 h1{
+  color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding:1rem 0 1rem 0;
+    text-transform: capitalize;
+}
+    
+}
